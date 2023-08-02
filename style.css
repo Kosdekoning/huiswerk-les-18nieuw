@@ -1,0 +1,81 @@
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Nijmegen%2C_stadszicht_vanaf_de_spoorbrug_foto5_2016-03-26_17.47.jpg/640px-Nijmegen%2C_stadszicht_vanaf_de_spoorbrug_foto5_2016-03-26_17.47.jpg);
+font-size: 64px;
+    padding: 20px 0;
+}
+
+.central-part {
+display: flex;
+}
+
+.left-part {
+flex: 2;
+padding: 20px;
+}
+
+.left-part h2 {
+font-size: 24px;
+}
+
+.left-part ul {
+list-style: none;
+padding-left: 0;
+}
+
+.left-part li {
+margin-bottom: 10px;
+}
+
+.right-part {
+flex: 9;
+background-color: #d1eff2;
+padding: 20px;
+}
+
+.content {
+display: flex;
+margin-bottom: 20px;
+}
+
+.content p {
+flex: 7;
+margin-right: 10px;
+}
+
+.content img {
+flex: 3;
+max-width: 100%;
+height: auto;
+}
+
+footer {
+text-align: center;
+background-color: #333;
+color: white;
+padding: 20px 0;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+header {
+    font-size: 24px;
+}
+
+.left-part {
+    flex: 1;
+    padding: 10px;
+}
+
+.right-part {
+    flex: 1;
+    padding: 10px;
+}
+}
+</style>
